@@ -1,0 +1,44 @@
+Mover
+3.7.0.5 BETA
+25-10-2024
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover%203.7.0.1%20BETA.zip
+
+
+Release Notes:
+
+General:
+New menu code to avoid the Windows default shortcuts behaviour (interfering with hot keys).
+Most of the diagram connections are now enabled (ui is slower and needs optimization).
+Added custom variables/enums. We can now define an operation or variable and give it a short name to reuse it in multiple places.
+Solved several nasty bugs in hot keys.
+Solved several small bugs.
+Enabled Mover version verification on startup (adds item to the menu to download the latest release).
+
+Sources:
+Added F1 24.
+Added slip angle to sources (angle between vehicle dislocation and vehicle direction, good for traction loss).
+Reworked the WIT source with new serial code a better error handling (now uses a dedicated thread but still has some problems).
+
+Poses:
+Work on the rpm source to solve vibration on disconnect transition.
+
+Rigs:
+
+Directs:
+
+Transducers:
+Multiple internal changes in transducers, prepairng the new dedicated modules.
+
+Outputs:
+Solved bug with bad format while generating byte array sent to the hardware
+
+Viewers:
+
+Online manual:
+Started compiling the info for the updated manual.
+
+Online server:
+
+
+Know problems/bugs:
+Slow and unresponsive UI with many diagram connections
