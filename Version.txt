@@ -1,8 +1,8 @@
 Mover
 3.7.0.6
 17-11-2024
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover%203.7.0.6%20BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover%203.7.0.6%20BETA.zip
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.6 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.6 BETA.zip
 
 Release Notes:
 
