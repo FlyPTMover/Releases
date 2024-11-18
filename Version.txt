@@ -1,43 +1,16 @@
 Mover
-3.7.0.7
-25-10-2024
+3.7.0.6
+17-11-2024
 https://github.com/FlyPTMover/Releases/blob/main/Mover%203.7.0.6%20BETA.zip
 https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover%203.7.0.6%20BETA.zip
 
 Release Notes:
 
 General:
-New menu code to avoid the Windows default shortcuts behaviour (interfering with hot keys).
-Most of the diagram connections are now enabled (ui is slower and needs optimization).
-Added custom variables. We can now define an operation or variable and give it a short name to reuse it in multiple places (Menu->Edit->Custom variables).
-Solved several nasty bugs in hot keys.
-Solved several small bugs.
-Enabled Mover version verification on startup (adds item to the menu to download the latest release).
-New serial code allowing when possible the use of the same port in multiple modules (sources and outputs).
 
-Sources:
-Added F1 24.
-Added slip angle to sources (angle between vehicle dislocation and vehicle direction, good for traction loss).
-Added Condor 3.
-Reworked the WIT source with new serial code a better error handling.
+Corrected bug in Update 
+If you are in 3.7.0.5 or earlier 3.7.0.6, you need to download the file manually
 
-Poses:
-Work on the rpm source to solve vibration on disconnect transition. Still not solved!
+Moved to .Net9.0
 
-Rigs:
-Added linear 2DOF rig.
-
-Transducers:
-Multiple internal changes in transducers, preparing the new dedicated modules.
-
-Outputs:
-Solved bug while generating byte array sent to the hardware
-Added Thanos output (1st iteration with new serial code)
-Added Motion4Sim output (1st iteration with new serial code)
-
-Online manual:
-Started compiling the info for the updated manual.
-
-Know problems/bugs:
-Slow and unresponsive UI with many diagram connections
-New bugs somewhere
+Work in module transitions, still with bug at 0% 
