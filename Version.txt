@@ -8,6 +8,8 @@ Release Notes:
 
 General:
 
+Corrected bug in the UDP output
+
 Corrected bug in Update 
 If you are in 3.7.0.5 or earlier 3.7.0.6, you need to download the file manually
 Files are now hosted in GitHub to avoid passwords
