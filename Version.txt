@@ -1,19 +1,9 @@
 Mover
-3.7.0.6
-17-11-2024
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.6 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.6 BETA.zip
+3.7.0.7
+22-11-2024
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.7 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.7 BETA.zip
 
-Release Notes:
+Release notes:
 
-General:
-
-Corrected bug in the UDP output
-
-Corrected bug in Update 
-If you are in 3.7.0.5 or earlier 3.7.0.6, you need to download the file manually
-Files are now hosted in GitHub to avoid passwords
-
-Moved to .Net9.0
-
-Work in module transitions, still with bug at 0% 
+Info to be updated... sorry
