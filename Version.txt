@@ -1,9 +1,77 @@
 Mover
-3.7.0.7
-22-11-2024
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.7 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.7 BETA.zip
+3.7.0.8
+25-11-2024
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.8 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.8 BETA.zip
 
-Release notes:
+Release notes for 3.7.0.8 (25-11-2024)
 
-Info to be updated... sorry
+General:
+  Solved bug in DIV operation.
+  Added MAXSPEED and MAXACCEL filters (WIP, needs testing).
+
+Sources:
+  Added Elite Dangerous(thanks to Wagnard hooks that are updated frequently)
+
+Poses:
+  Adjusted size of tires (was wrong with scale on windows)
+  
+Rigs:
+  2DOF rotating now similar to Mover 3.5.3 (swap and swap swapped added).
+
+Known problems and bugs:
+  Thanos and Motion4Sim are stil WIP.
+  Pausing outputs while transitioning to connect/disconnect can cause jumps!
+  Missing features of 3.5.3 that are still WIP.
+  Crash in when opening default source/game/vehicle using high precision timer
+
+--------------------------------------
+
+Release notes for 3.7.0.7 (22-11-2024)
+
+General:
+  Revert to .net8 (some problems with tasks...)
+  New code for serial that should solve the detection of some hardware.
+  Naming of the devices should be better. After the first detection some devices might be renamed on a second detection.
+
+Sources:
+  Optimized air/ground code
+  Added Falcon 4.0 BMS
+  Added MSFS 2024 (same as MSFS 2020, just adding image and links to start/stop MSFS 2024).
+  Solved bug causing thread to pause while trying to connect to Simconnect.
+  Solved bug in image rotation (kept wrong image in some situations).
+
+Outputs:
+  Corrected bug when pausing the data stream. Now the data flow stops.
+  Keep autoconnect checked when we loose connection due to an error.
+  Motion4Sim 
+	Added shutdown button.
+    We can now select where the motion cueing is done (Mover or M4S).
+	If M4S, we are sending the rig pose instead of the actuators position (use the just pose rig, but any other rig also works)
+    Corrected bugs while testing for 24 bits actuators.
+    Corrected bug in key for direct actuators.
+    Corrected bug causing serial data problems (might have some yet).
+  Thanos:
+    Corrected bugs while testing for 16 bits actuators.
+    Corrected bug in key for direct actuator.
+
+Known problems and bugs:
+  Thanos and Motion4Sim are stil WIP.
+  Pausing outputs while transitioning to connect/disconnect can cause jumps!
+  Missing features of 3.5.3 that are still WIP.
+  Crash in when opening default source/game/vehicle using high precision timer
+
+--------------------------------------
+
+Release notes for 3.7.0.6 (17-11-2024)
+
+General:
+  Upgraded Mover to .Net9
+  Corrected bug in auto update. It was locking Mover.
+  Release files are now hosted in GitHub to avoid passwords.
+
+Outputs:
+  Corrected bug in the UDP output. Data was not sent.
+
+Known problems and bugs:
+  Work in module transitions still with bug at 0% 
