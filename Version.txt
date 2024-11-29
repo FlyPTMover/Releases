@@ -1,8 +1,23 @@
 Mover
-3.7.0.8
-25-11-2024
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.8 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.8 BETA.zip
+3.7.0.9
+29-11-2024
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.9 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.9 BETA.zip
+
+Release notes for 3.7.0.9 (29-11-2024)
+
+Rigs:
+  Added some pré definitions for hexapods (temporary solution)
+  Limited gain to a range between 0 and 1 (for safety reasons)
+  
+Sources:
+  MSFS solved bug causing connection problem.
+  VTOL VR now with the corresponding mod in the Steam VTOL VR Mod Loader workshop (not VTOL VR workshop)
+
+Known problems and bugs:
+  MSFS enable/disable motion in crash is not working!
+  
+--------------------------------------
 
 Release notes for 3.7.0.8 (25-11-2024)
 
