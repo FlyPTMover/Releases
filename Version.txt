@@ -1,8 +1,14 @@
 Mover
-3.7.0.10
+3.7.0.11
 10-09-2025
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.10 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.10 BETA.zip
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.11 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.11 BETA.zip
+
+Release notes for 3.7.0.11 (10-09-2025)
+
+Changes in the behaviour of Update
+  
+--------------------------------------
 
 Release notes for 3.7.0.10 (10-09-2025)
 
@@ -120,3 +126,4 @@ Outputs:
 Known problems and bugs:
 
   Work in module transitions still with bug at 0% 
+
