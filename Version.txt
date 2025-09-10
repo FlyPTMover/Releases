@@ -1,8 +1,37 @@
 Mover
-3.7.0.9
-29-11-2024
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.9 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.9 BETA.zip
+3.7.0.10
+10-09-2025
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.10 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.10 BETA.zip
+
+Release notes for 3.7.0.10 (10-09-2025)
+
+General:
+  Many bugs solved, and many internal changes
+  Some modules still working without the scale updates
+  
+UI:
+  Dark mode and UI scale
+  Solved several bugs in joystick, keyboard and midi used as controllers for the UI
+  You can adjust any numeric control, checkbox or button with one of those
+  Just right click in the UI control to assign a hot control
+  VTOL VR now with the corresponding mod in the Steam VTOL VR Mod Loader workshop (not VTOL VR workshop)
+
+Filters:
+  New loop filters
+  Use variables anywhere
+  Make custom variables by assigning a macro to a name (Edit->Custom Variables)
+  Solved several bugs in the variables
+  
+Sources:
+  Updated Falcon BMS for latest changes
+  Added Wreckfest 2
+  Solved bugs in games detection, launch and patch
+  
+Known problems and bugs:
+  Many to solve yet! Still BETA
+  
+--------------------------------------
 
 Release notes for 3.7.0.9 (29-11-2024)
 
@@ -89,4 +118,5 @@ Outputs:
   Corrected bug in the UDP output. Data was not sent.
 
 Known problems and bugs:
+
   Work in module transitions still with bug at 0% 
