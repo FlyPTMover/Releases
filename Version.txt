@@ -1,8 +1,16 @@
 Mover
-3.7.0.11
-10-09-2025
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.11 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.11 BETA.zip
+3.7.0.12
+17-09-2025
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.12 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.12 BETA.zip
+
+Release notes for 3.7.0.12 (17-09-2025)
+
+Changes in Thanos and Motion4Sim outputs (updated ui scaling and solved several bugs in serial)
+Added MIDI out to update midi values on devices that accept it (experimental)
+Solved other bugs like crash caused by graphics trying to represent invalid numbers
+  
+--------------------------------------
 
 Release notes for 3.7.0.11 (10-09-2025)
 
@@ -126,4 +134,5 @@ Outputs:
 Known problems and bugs:
 
   Work in module transitions still with bug at 0% 
+
 
