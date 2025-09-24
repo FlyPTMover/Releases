@@ -1,8 +1,21 @@
 Mover
-3.7.0.12
-17-09-2025
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.12 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.12 BETA.zip
+3.7.0.13
+24-09-2025
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.13 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.13 BETA.zip
+
+Release notes for 3.7.0.13 (24-09-2025)
+
+When changing values in numeric fields, Mover sends a CC to the midi device if assigned to update if possible the value on the device
+Should detect NRPN for high resolution midi (must setup your device to send it)
+In checkboxes we can now select two behaviors for hot controls (just one to check/unchec or two, one to check and another to uncheck)
+The above behaviour will be replicated to Connect/Disconnect buttons
+Added Farming Simulator 19, 22 and 25 source/game/vehicle
+WIP for GTA V source
+WIP for custom joystick source
+Several small bugs solved
+
+--------------------------------------
 
 Release notes for 3.7.0.12 (17-09-2025)
 
@@ -134,5 +147,6 @@ Outputs:
 Known problems and bugs:
 
   Work in module transitions still with bug at 0% 
+
 
 
