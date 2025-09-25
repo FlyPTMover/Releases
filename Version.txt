@@ -1,8 +1,18 @@
 Mover
-3.7.0.13
-24-09-2025
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.13 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.13 BETA.zip
+3.7.0.14
+25-09-2025
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.14 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.14 BETA.zip
+
+Release notes for 3.7.0.14 (25-09-2025)
+
+MIDI In/Out changed for better association, even so there's still some problems 
+Check in the devices window if they are In/Out, if not, force update
+Updates with MIDI NRPN, now it sends back info to the device
+Devices window now shows raw midi values besides the remapped values
+Some other small changes and bug fixes, specially in the devices window
+
+--------------------------------------
 
 Release notes for 3.7.0.13 (24-09-2025)
 
@@ -147,6 +157,7 @@ Outputs:
 Known problems and bugs:
 
   Work in module transitions still with bug at 0% 
+
 
 
 
