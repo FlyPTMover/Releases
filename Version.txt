@@ -1,8 +1,20 @@
 Mover
-3.7.0.14
-25-09-2025
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.14 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.14 BETA.zip
+3.7.0.15
+25-10-2025
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.15 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.15 BETA.zip
+
+Release notes for 3.7.0.15 (25-10-2025)
+
+Work in MIDI controls (not working yet...)
+Added new tool: Video recorder, for futur integration with source recording
+Updated Racerrom telemetry
+Solved many bugs, worst in the rig module where the filters where tnot working
+Updates in UI controls, scale and colors (still WIP)
+Updated 2DOF rigs user interface
+Many other small updates
+
+--------------------------------------
 
 Release notes for 3.7.0.14 (25-09-2025)
 
@@ -157,6 +169,7 @@ Outputs:
 Known problems and bugs:
 
   Work in module transitions still with bug at 0% 
+
 
 
 
