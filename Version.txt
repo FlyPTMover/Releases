@@ -1,9 +1,33 @@
 Mover
-3.7.0.15
-25-10-2025
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.15 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.15 BETA.zip
+3.7.0.16
+04-11-2025
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.16 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.16 BETA.zip
 
+Release notes for 3.7.0.16 (04-11-2025)
+
+Updated and solved several bugs in the 4DOF rig (like D-Mover)
+This rig should put out a surge value due to the mechanical constraints. Yaw induces some surge because the rear actuators don't rotate in the lateral axis
+Solved several bugs in items selection for each modules
+Added Joysticks and Midi devices to graphics and outputs
+Updated several custom controls
+Solved bug in numeric controls, value was not showing on initialization
+Solved bug in numeric controls, bad rendering of value
+Solved bug on 3D rendering of actuators with sliders
+Solved bug in module renaming and key change
+Solved bug in actuators bytes (wrong maximum value)
+Solved bugs in setup merge (not all, need to test better - keys should change because of possible duplicates and this affects all the setup)
+
+Known bugs and problems:
+Some colors are not the best, it's WIP
+Problems with MSFS connection, still same as previous release
+Midi in hotkeys still not sending the correct feedback to devices (doubt I can make it work, missing a device for correct testing)
+Midi selection in graphics and outputs is still WIP, they should show only when used... have to decide how to do it yet, the list is to extensive, you can always add the var in the string manually
+Some bugs in directs
+Some connections might disapear in the diagram
+Slow loading of setups, specially with the Loop source
+
+--------------------------------------
 Release notes for 3.7.0.15 (25-10-2025)
 
 Work in MIDI controls (not working yet...)
@@ -170,6 +194,7 @@ Outputs:
 Known problems and bugs:
 
   Work in module transitions still with bug at 0% 
+
 
 
 
