@@ -1,8 +1,26 @@
 Mover
-3.7.0.16
-04-11-2025
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.16 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.16 BETA.zip
+3.7.0.17
+06-11-2025
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.17 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.17 BETA.zip
+
+Release notes for 3.7.0.17 (06-10-2025)
+
+Disabled rendering on resize of windows for a faster UI (might become an option)
+Solved bug where Loop and noise was slooowwww when loading the setup
+Added double click to module button - This now hides the module, just like double clicking the title
+Corrected layout in options for correct scale adjustment (missing close button)
+Corrected layout of main window menu for correct scale adjustment (disaligned and cropped menu buttons)
+Also corrected wrong title rendering of main window when scale is changed
+Corrected bug in control for plugins locations with bad behavior on scale change (options window)
+Changed behavior of main window while loading a setup to avoid a "ghost" window
+Corrected bug where updates where not made to the rigs when changing the actuators parameters
+Corrected colors in the window to adjust actuators parameters
+Removed radius from the rotating sliders actuators setting in the rotating slider hexapod (we set it outside of the window for two radius)
+Updated source to get data from joysticks/keyboard/midi
+Solved bug where hots where not saved/loaded
+
+--------------------------------------
 
 Release notes for 3.7.0.16 (04-11-2025)
 
@@ -194,6 +212,7 @@ Outputs:
 Known problems and bugs:
 
   Work in module transitions still with bug at 0% 
+
 
 
 
