@@ -1,8 +1,21 @@
 Mover
-3.7.0.17
-06-11-2025
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.17 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.17 BETA.zip
+3.7.0.18
+03-03-2026
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.18 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.18 BETA.zip
+
+Release notes for 3.7.0.18 (03-03-2026)
+
+Many internal optimizations and changes
+UI scale with some things to do yet, also for dark mode
+MIDI is not 100%, but in/out working
+Added some sources and reworked others for better speed
+Corrected bugs in rigs (several)
+Some new filters like WASH/WASHR (go back to zero slow) and EMALPT/EMAHPT (EMA based in time not samples)
+Custom UDP source still WIP
+Many small bugs solved
+
+--------------------------------------
 
 Release notes for 3.7.0.17 (06-10-2025)
 
@@ -212,6 +225,7 @@ Outputs:
 Known problems and bugs:
 
   Work in module transitions still with bug at 0% 
+
 
 
 
