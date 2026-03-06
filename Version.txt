@@ -7,7 +7,7 @@ https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.19 BETA.zip
 Release notes for 3.7.0.19 (06-03-2026)
 
 Solved some UI bugs
-MIDI is mostly working now, mighr have some small bugs, but is now set for in/out in checkboxes and numeric fields
+MIDI seems to be working now, might have some small bugs, but is now set for in/out in checkboxes and numeric fields
 Removed old code
 Optimized some sources for speed
 
@@ -234,6 +234,7 @@ Outputs:
 Known problems and bugs:
 
   Work in module transitions still with bug at 0% 
+
 
 
 
