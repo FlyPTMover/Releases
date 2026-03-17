@@ -1,8 +1,34 @@
 Mover
-3.7.0.19
-06-03-2026
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.19 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.19 BETA.zip
+3.7.0.20
+17-03-2026
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.20 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.20 BETA.zip
+
+Release notes for 3.7.0.20 (17-03-2026)
+
+Solved a bug in EMAHPT and EMALPT when the filter time was 0 (no filter). 
+Small changes in the INTERPOLATION filter to enhance results (also affects the sources interpolation).
+
+Corrected a bug when saving graphics. The color change was not detected correctly, causing large files because it was storing all the items.
+Reworked source recording, now synchronization with video is better. Data is saved at high frequency, and video is saved at vsync frequency.
+When recording with video, always use vsync in the games, or you will get poor quality video. Also, disable HDR,
+Windows still causes a big mess with HDR recording. 
+
+Reworked the Player source (still some problems with Phyphox files)
+
+Solved some bugs in the LOOP filter/operation. 
+You can now use operations/filters to define the type of wave. 
+The drop-down with the type of wave shows when you select NUMBER (the type of wave depends on value). 
+You can now use operations/filters to define the type of IF. 
+The drop-down with the type of IF shows when you select NUMBER (the condition depends on value). 
+MIDI variables selected in the filters/operations now store the value, allowing MIDI devices with in/out to get the value of the setup.
+Using hotkeys defined in the numeric controls of filters is disabled. There is no way to work around it. Use REMAP(VARIABLE;FROM1;TO1;FROM2;TO2). 
+
+Updated the transducers module to the latest internals and UI . Missing predefinitions and input slider. No module for wheels yet.
+
+4DOF rig still with bugs
+
+--------------------------------------
 
 Release notes for 3.7.0.19 (06-03-2026)
 
