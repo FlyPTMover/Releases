@@ -1,8 +1,66 @@
 Mover
-3.7.0.20
-17-03-2026
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.20 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.20 BETA.zip
+3.7.0.21
+27-03-2026
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.21 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.21 BETA.zip
+
+Release notes for 3.7.0.21 (27-03-2026)
+
+General:
+New icons for the Mover and MoverRec files (go to options and make the file association to update the icons)
+Changed disabled colors in some controls (they where hard to read)sss
+Corrected color in horizontal slider of the 3D view
+Openning a MoverRec file (when associated in the options) opens the default setup with a plyer source added for the specified MoverRec file (that player is automatically selected in all the poses and directs)
+Games paths are no longer stored in the registry.
+
+Diagram:
+Corrected bug where the VR output was not showing the diagram connection
+
+Options:
+Changed file association code, added *.MoverRec association
+You get only one button to associate or dissociate, Mover detects if your association is with the current executable
+You still need to do the association in the options, but the first time you run Mover you will be asked if you want to do it if it's not done
+You can now set the location and enable a log file (logs the messages shown in Mover, the log file is erased each time you start Mover)
+
+Setups:
+Started migrating default setups to the user appdata folder
+*.MoverRec is now associated to Mover (icon with a play arrow) and when you open it, Mover opens the default setup with an added player for that file (that player source will be added and selected on the pose and direct modules)
+When loading another setup or clearing the setup, existing custom variables are also erased
+
+Transducers:
+Now checking manual for noise, frequency and amplitude doesnt use the filters the value used is the one given by the slider
+Gains increase at 0.01
+Examples added but not tested! Mostly copy/paste from old Mover
+
+Sources:
+DCS is now looking correctlly for the Saved Games folder in the system
+Corrected games patching on BeamNG, Condor, IL2Sturmovik and Warplanes (was using old code to look for the location - now removed)
+Reworked the record menu, if you use a hot control files use the name defined the first time you started recording, but appended by a # (no overwrite)
+Added values for FK
+Removed sources used for testing (LFS AVEvo/ACRally)
+
+Poses:
+Corrected bug in COR correction (pose from motion)
+
+Rigs:
+Some work done to split center of rotation into something similar to the pose from motion where you set independant COR for each rotation (if added it will be optional)
+Linear (4DOF), changed default dimensions and made yaw around a point at a specific distance of the top front
+
+Outputs:
+Corrected and updated some tooltips
+Solved bug in VR compensation
+Now you can't select outputs in the outputs (makes no sense)
+Corrected bug in color of the serial control in the serial output
+
+Tools:
+Updated and solved some bugs in the memory viewer (viewers/tools)
+Added a memory mapped file viewer based on the memory viewer (viewers/tools)
+Solved some bugs and optimized video recording
+
+Midis:
+Key where changed and association of midi in and out should give better matches even with multiple equal devices
+
+--------------------------------------
 
 Release notes for 3.7.0.20 (17-03-2026)
 
