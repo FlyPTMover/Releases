@@ -1,8 +1,60 @@
 Mover
-3.7.0.21
-27-03-2026
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.21 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.21 BETA.zip
+3.7.0.22
+22-04-2026
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.22 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.22 BETA.zip
+
+Release notes for 3.7.0.22 (22-04-2026)
+
+General:
+Modified transforms to allow rotations at different locations
+Added control to define COR (single or multi)
+
+Hot controls:
+New Conncect/Disconnect button with toggle logic. Same for checkboxes.
+
+Main window:
+Corrected bug making added modules appear at strange locations (in menu it adds at center of diagram, with right click menu it shows at click location)
+
+Sources:
+Elite:
+Made some changes and corrected bugs, now get's updated hooks online, and rotations where changed to speeds instead of angles
+XPlane 11 and 12:
+Reworked source, now you can patch XPlane with a plugin and set custom values by editing the cfg file. (please apply patch again)
+It's way more efficient and faster than sending and receiving requests.
+The plugin should also work in XPlane 10 (you need to patch manually)
+Dirt Rally 2:
+Correcetd bug while patching, the VR version was missing in the patch (please apply patch again)
+rFactor2 and Le Mans Ultimate:
+New plugins and updated patch code (please apply patch again)
+New source for AC EVO with the new data
+AC Rally dedicated source
+Optimized AC and ACC source
+Changes in the MMF sources internals (optimizations)
+
+Rigs:
+Changed rigs COR's to allow different centers of rotation for each rotation (using new control for COR)
+All rigs and actuators changed to this new COR (need to review calculations for further optimisation)
+Corrected bug where some actuators values where not saved (rotating actuator, linear slider and rotating slider)
+Added Linear 3DOF rig
+Limited the linear and rotating 3DOF rigs to be on the ground
+
+Outputs:
+Added tcp server output, now you can stream values over tcp (UI needs more work).
+You can open the dash example from the module with the default string for a demo
+
+Tools:
+Added IPv4 to check what are the IPv4 of the system
+
+Dashes:
+Added demo dash for testing with the TCP server, you can run it in any device, phone tablet PC that lies on the same network of Mover
+
+Known problems:
+Many internal changes to solve bugs while opening and patching sources, there's still errors
+New COR needs more testing and updates on the 3D rendering to show the axis as thwy are defined
+Hot controls need testing, specially with MIDI feedback
+Missing values for dashes
+Dash example is not 100% active, some info is not connected yet
 
 Release notes for 3.7.0.21 (27-03-2026)
 
