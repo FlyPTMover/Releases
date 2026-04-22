@@ -9,6 +9,7 @@ Release notes for 3.7.0.22 (22-04-2026)
 General:
 Modified transforms to allow rotations at different locations
 Added control to define COR (single or multi)
+New icons (go to options and dissociate/associate again the files to the new Mover release)
 
 Hot controls:
 New Conncect/Disconnect button with toggle logic. Same for checkboxes.
