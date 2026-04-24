@@ -1,8 +1,32 @@
 Mover
-3.7.0.22
-22-04-2026
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.22 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.22 BETA.zip
+3.7.0.23
+24-04-2026
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.23 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.23 BETA.zip
+
+Release notes for 3.7.0.23 (24-04-2026)
+
+General:
+Solved bug: Color artifacts showing around checkboxes
+Hots where rebuild to solve bugs with devices (midi/joysticks)
+
+Filters:
+Solved bug: Midi key M was changed when loading setups
+New code for variables to solve bugs with devices
+
+Devices:
+Solved bug: Midi devices where not fully initialized at start making default setups loose connection to midi devices (specially when used in filters)
+Solved bug: Midi devices where detected more than one time causing wrong indexes in hot's detection
+New joystick code to detect more controls. We lost the old key mapping, now axis are indexed like buttons where indexed A0, A1, A2... instead of AX, AY,...
+
+Main window:
+Solved bug: Loading a setup was not changing font scale on the diagram
+Solved bug: Making a new setup from default not erasing the current setup
+
+Poses:
+Solved bug: Decimals missing in the gain of the pose from suspension and pose from traction loss
+
+--------------------------------------
 
 Release notes for 3.7.0.22 (22-04-2026)
 
@@ -56,6 +80,8 @@ New COR needs more testing and updates on the 3D rendering to show the axis as t
 Hot controls need testing, specially with MIDI feedback
 Missing values for dashes
 Dash example is not 100% active, some info is not connected yet
+
+--------------------------------------
 
 Release notes for 3.7.0.21 (27-03-2026)
 
