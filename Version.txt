@@ -9,6 +9,7 @@ Release notes for 3.7.0.24 (27-04-2026)
 General:
 Solved bug: In CHK the hot control was not correctly saved
 Solved bug: In Midi some hot controls where ignored because of test code
+Solved bug: Virtual Midi should be back (disapeared in last build)
 Some optimizations in the code for speed a bit everywhere
 
 Directs:
