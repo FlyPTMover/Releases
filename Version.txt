@@ -1,8 +1,25 @@
 Mover
-3.7.0.23
-24-04-2026
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.23 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.23 BETA.zip
+3.7.0.24
+27-04-2026
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.24 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.24 BETA.zip
+
+Release notes for 3.7.0.24 (27-04-2026)
+
+General:
+Solved bug: In CHK the hot control was not correctly saved
+Solved bug: In Midi some hot controls where ignored because of test code
+Some optimizations in the code for speed a bit everywhere
+
+Directs:
+Solved bug: Where slider was ignored when we had no connected sources
+
+Sources:
+Updated custom UDP source, now with all the matrixes and quaternions included (think they are correct)
+The coordinate systems are converted to Mover coordinate system, so you should specify the correct one
+Next step is to test this better and pass all that to MMF and HOOKS custom sources
+
+--------------------------------------
 
 Release notes for 3.7.0.23 (24-04-2026)
 
