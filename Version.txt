@@ -1,8 +1,25 @@
 Mover
-3.7.0.24
-27-04-2026
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.24 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.24 BETA.zip
+3.7.0.25
+14-05-2026
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.25 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.25 BETA.zip
+
+Release notes for 3.7.0.25 (14-05-2026)
+
+General:
+Solved bug when starting Mover with default setup or setup from file that cause misplacement of modules in diagram
+
+Filters:
+Updated BESSEL filter, now allows you to use up to order 8 and with more resolution
+
+Ouputs:
+Solved bug in the Thanos and Motion4Sim outputs where directs where showing .A when it was removed in a earlier version
+Solved bug in the connet/disconnect button with Midi, not allowing connect on reload
+
+Sources:
+Added Epic Roller Coasters (use suspension module to get vibration)
+
+--------------------------------------
 
 Release notes for 3.7.0.24 (27-04-2026)
 
