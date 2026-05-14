@@ -1,8 +1,27 @@
 Mover
-3.7.0.25
+3.7.0.26
 14-05-2026
-https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.25 BETA.zip
-https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.25 BETA.zip
+https://github.com/FlyPTMover/Releases/raw/refs/heads/main/Mover 3.7.0.26 BETA.zip
+https://github.com/FlyPTMover/Releases/blob/main/Mover 3.7.0.26 BETA.zip
+
+Release notes for 3.7.0.26 (14-05-2026)
+
+Filters:
+Updated CHEBYSHEV type 1 and 2, BUTTERWORTH and ELLIPTIC filters, all optimized for doubles and added missing parameters for elliptic and chebyshev types (now Mover does all the calculations with doubles)
+Removed BASS and TREBLE, changed them to LOWSHELF and HIGHSHELF with new code.
+
+Joysticks:
+Corrected bug limiting axes from 0 to 1, now from -1 to 1
+
+Source:
+Joysticks, midis and keyboards, solved several bugs causing crash when loading a setup. Also updated texts and corrected selected behaviour.
+
+Rig:
+Updated Treble and Bass in the rigs for new optimized filters
+Corrected bug related to gain, that was changing only when bass was adjusted
+Treble, Bass and Gain/Volume work like in an audio adjustment allowing you to easilly chnage low/high frequencies
+
+--------------------------------------
 
 Release notes for 3.7.0.25 (14-05-2026)
 
